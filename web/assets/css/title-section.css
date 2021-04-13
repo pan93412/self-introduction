@@ -1,0 +1,11 @@
+.title.section {
+  overflow: hidden;
+}
+
+.title.section .text.block {
+  position: relative;
+  align-self: center;
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}

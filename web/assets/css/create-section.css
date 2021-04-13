@@ -1,0 +1,35 @@
+.create.section {
+  overflow: hidden;
+}
+
+.create.section .text.block {
+  align-self: center;
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}
+
+.create.section .text.block > h2 {
+  color: #acba07;
+}
+
+.create.section .icon.view-a {
+  position: relative;
+  animation: 10s linear 0s infinite alternate scroll-back-forward;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  left: -60px;
+}
+
+.create.section .icon.view-b {
+  position: relative;
+  animation: 10s linear 0s infinite alternate scroll-forward-back;
+  grid-column: 1 / 4;
+  grid-row: 4;
+  left: -160px;
+}
+
+.create.section img {
+  width: max-content;
+  height: max-content;
+}

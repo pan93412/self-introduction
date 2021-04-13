@@ -1,0 +1,13 @@
+.loc.section {
+  overflow: hidden;
+  background-image: url("../images/crowdin.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.loc.section .text.block {
+  align-self: center;
+  grid-column: 2;
+  grid-row: 2;
+}

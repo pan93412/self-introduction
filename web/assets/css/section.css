@@ -1,0 +1,21 @@
+section.section {
+  display: grid;
+  width: 94vw;
+  height: 90vh;
+  gap: 1vw 1vh;
+
+  grid: repeat(3, 1fr) / repeat(3, 1fr);
+
+  color: #DFDDDD;
+}
+
+.text.block > h2 {
+  font-family: "OppoSans";
+  font-weight: heavy;
+  font-size: 28px;
+}
+
+.text.block > p {
+  font-family: "ITXE Writing";
+  font-size: 20px;
+}

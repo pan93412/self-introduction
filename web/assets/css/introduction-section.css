@@ -1,0 +1,45 @@
+.introduction.section {
+  overflow: hidden;
+}
+
+.introduction.section .summary.block {
+  grid-column: 1;
+  grid-row: 1 / 4;
+}
+
+.introduction.section .history.block {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  line-height: 2;
+}
+
+.introduction.section .project.block {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+  line-height: 2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction.section .contact.me {
+  grid-column: 4;
+  grid-row: 1;
+  line-height: 2;
+}
+
+.introduction.section .project.section {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-content: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.rounded.avatar {
+  border-radius: 100%;
+}
